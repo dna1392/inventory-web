@@ -1,0 +1,11 @@
+body {
+    /* padding: 25px; */
+    padding-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.navbar {
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
